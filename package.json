@@ -1,5 +1,28 @@
 {
   "dependencies": {
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "description": "node tutorial",
+  "main": "server.js",
+  "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evar-SF27/Node-Tut.git"
+  },
+  "author": "E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evar-SF27/Node-Tut/issues"
+  },
+  "homepage": "https://github.com/Evar-SF27/Node-Tut#readme"
 }
