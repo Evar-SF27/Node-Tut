@@ -2,7 +2,6 @@ const http = require('http')
 const fs = require('fs')
 const fsPromises = require('fs').promises
 const path = require('path')
-
 const logEvents = require('./logEvents')
 const EventEmitter = require('events')
 class Emitter extends EventEmitter { }
